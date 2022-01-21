@@ -1,0 +1,53 @@
+.app{
+    /* background-image: url(./assets/fondoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* position: absolute; */
+    bottom: 0%;
+    top:0%;
+    left: 0%;
+    right: 0%;
+}
+
+.bkg {
+    width: 100vw;
+    height: 100vw;
+    backdrop-filter: blur(10px);
+    background-color: #27272760;
+
+}
+
+.container{
+    width: 80vw;
+    height: 80vh;
+    /* position: absolute; */
+    margin: 10vh 10vw;
+    top: 0%;
+    overflow: hidden;
+    /* background-image: url(./assets/fondoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border-radius: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50vh 20vh;
+
+}
+
+.citiesContainer{
+    display: flex;
+    height: 32vh;
+    background-color: rgba(240, 240, 240, 0.26);
+    backdrop-filter: blur(6px);
+    justify-content: right;
+}
+
+
+/* para no repetir codigo: */
+.app,
+.container{
+    background-image: url(./assets/fondoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
